@@ -1,0 +1,9 @@
+Error when first testing tkinter
+    Error message
+     * [...]
+     * _tkinter.TclError: Can't find a usable init.tcl in the following directories:
+     * C:/Users/[...]/Python313/lib/tcl8.6 C:/Users/[...]DataVisualizer/.venv/lib/tcl8.6 [...]
+    Solution
+     * https://stackoverflow.com/questions/29320039/trying-to-use-tkinter-throws-tcl-error-cant-find-a-usable-init-tcl
+     * Answer by Brian A:
+     * Copy folder tlc/ from C:/[...]/Python313 to .venv in project folder
