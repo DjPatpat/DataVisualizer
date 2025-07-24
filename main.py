@@ -1,23 +1,23 @@
 import tkinter as tk
 from tkinter import ttk     # import Tk themed widgets (new widgets from 2007)
 
+buttons_GP = ["Save", "Save as", "Load", "Export", "LaTeX", "PDF"]
+buttons_SP = ["Choose Columns", "Add Column", "Remove Column", "Add Row", "Remove Row"]
+
 class ButtonGeneral(ttk.Frame):
     def __init__(self, container):
         super().__init__(container)
 
         # grid layout manager
         self.columnconfigure(index=0, weight=1)
-
         self.__create_widgets()
 
 
     def __create_widgets(self):
-        ttk.Button(self, text="Save").grid(row=0, column=0)
-        ttk.Button(self, text="Save as").grid(row=1, column=0)
-        ttk.Button(self, text="Load").grid(row=2, column=0)
-        ttk.Button(self, text="Export").grid(row=3, column=0)
-        ttk.Button(self, text="LaTeX").grid(row=4, column=0)
-        ttk.Button(self, text="PDF").grid(row=5, column=0)
+        i = 0
+        for button in buttons_GP:
+            ttk.Button(self, text=button).grid(row=i, column=0)
+            i += 1
 
 
 class ButtonSpecific(ttk.Frame):
@@ -26,17 +26,15 @@ class ButtonSpecific(ttk.Frame):
 
         # grid layout manager
         self.columnconfigure(index=1, weight=1)
-
         self.__create_widgets()
 
 
     def __create_widgets(self):
-        ttk.Button(self, text="Choose Columns").grid(row=0, column=1)
-        ttk.Button(self, text="Single Plot").grid(row=0, column=2)
-        ttk.Button(self, text="Add Column").grid(row=0, column=3)
-        ttk.Button(self, text="Remove Column").grid(row=0, column=4)
-        ttk.Button(self, text="Add Row").grid(row=0, column=5)
-        ttk.Button(self, text="Remove Row").grid(row=0, column=6)
+        i = 0
+        for button in buttons_SP:
+            ttk.Button(self, text=button).grid(row=0, column=i)
+            i += 1
+        ttk.Checkbutton(self, text="Single Plot").grid(row=0, column=i)
 
 
 class ButtonThemes(ttk.Frame):

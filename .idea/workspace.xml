@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6180464-ba3b-4967-ad5b-8557fe9c51db" name="Changes" comment="Removed test button.&#10;Removed test label.&#10;Added grid layout for root window.&#10;Added frame for general purpose buttons.&#10;&#10;Documented error of colliding .pack() and .grid().">
+    <list default="true" id="c6180464-ba3b-4967-ad5b-8557fe9c51db" name="Changes" comment="Update Buttons&#10;&gt; Added General Purpose Buttons (no functionality)&#10;&gt; Added Specific Buttons (no functionality)&#10;&gt; Added Themes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -108,7 +108,7 @@
       <updated>1753272327828</updated>
       <workItem from="1753272328519" duration="6445000" />
       <workItem from="1753349869973" duration="4808000" />
-      <workItem from="1753360216416" duration="2738000" />
+      <workItem from="1753360216416" duration="4675000" />
     </task>
     <task id="LOCAL-00001" summary="First successfully opened empty window.&#10;&#10;Started a file for error documentation.">
       <option name="closed" value="true" />
@@ -150,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753356542523</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update Buttons&#10;&gt; Added General Purpose Buttons (no functionality)&#10;&gt; Added Specific Buttons (no functionality)&#10;&gt; Added Themes">
+      <option name="closed" value="true" />
+      <created>1753363149420</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753363149420</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,9 +181,10 @@
     <MESSAGE value="Testing writing labels and button interactions." />
     <MESSAGE value="Moved window sizing to an own function, added parameters for initial size." />
     <MESSAGE value="Removed test button.&#10;Removed test label.&#10;Added grid layout for root window.&#10;Added frame for general purpose buttons.&#10;&#10;Documented error of colliding .pack() and .grid()." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed test button.&#10;Removed test label.&#10;Added grid layout for root window.&#10;Added frame for general purpose buttons.&#10;&#10;Documented error of colliding .pack() and .grid()." />
+    <MESSAGE value="Update Buttons&#10;&gt; Added General Purpose Buttons (no functionality)&#10;&gt; Added Specific Buttons (no functionality)&#10;&gt; Added Themes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Buttons&#10;&gt; Added General Purpose Buttons (no functionality)&#10;&gt; Added Specific Buttons (no functionality)&#10;&gt; Added Themes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DataVisualizer$main.coverage" NAME="main Coverage Results" MODIFIED="1753362936934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataVisualizer$main.coverage" NAME="main Coverage Results" MODIFIED="1753364860419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
