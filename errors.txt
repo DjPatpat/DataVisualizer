@@ -7,3 +7,9 @@ Error when first testing tkinter
      * https://stackoverflow.com/questions/29320039/trying-to-use-tkinter-throws-tcl-error-cant-find-a-usable-init-tcl
      * Answer by Brian A:
      * Copy folder tlc/ from C:/[...]/Python313 to .venv in project folder
+
+Error with grid
+    Error message
+     * _tkinter.TclError: cannot use geometry manager grid inside . which already has slaves managed by pack
+    Solution
+     * Either use .pack or .grid, but using both with different widgets is not allowed.

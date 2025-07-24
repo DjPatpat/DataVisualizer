@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6180464-ba3b-4967-ad5b-8557fe9c51db" name="Changes" comment="Testing writing labels and button interactions.">
+    <list default="true" id="c6180464-ba3b-4967-ad5b-8557fe9c51db" name="Changes" comment="Moved window sizing to an own function, added parameters for initial size.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/errors.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1753272327828</updated>
       <workItem from="1753272328519" duration="6445000" />
-      <workItem from="1753349869973" duration="1236000" />
+      <workItem from="1753349869973" duration="3065000" />
     </task>
     <task id="LOCAL-00001" summary="First successfully opened empty window.&#10;&#10;Started a file for error documentation.">
       <option name="closed" value="true" />
@@ -133,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753277114234</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Moved window sizing to an own function, added parameters for initial size.">
+      <option name="closed" value="true" />
+      <created>1753352753266</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753352753266</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,9 +163,10 @@
     <MESSAGE value="First successfully opened empty window.&#10;&#10;Started a file for error documentation." />
     <MESSAGE value="Added centering of window, resized intial window." />
     <MESSAGE value="Testing writing labels and button interactions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing writing labels and button interactions." />
+    <MESSAGE value="Moved window sizing to an own function, added parameters for initial size." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved window sizing to an own function, added parameters for initial size." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DataVisualizer$main.coverage" NAME="main Coverage Results" MODIFIED="1753352662333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataVisualizer$main.coverage" NAME="main Coverage Results" MODIFIED="1753356359652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
