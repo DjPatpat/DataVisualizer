@@ -8,15 +8,16 @@ class ButtonGeneral(ttk.Frame):
     def __init__(self, container):
         super().__init__(container)
 
-        # grid layout manager
-        self.columnconfigure(index=0, weight=1)
-        self.__create_widgets()
+        button_gp_frame = ttk.LabelFrame(self, text='General')
+        button_gp_frame.grid(row=0, column=0, rowspan=2)
+        self.__create_widgets(button_gp_frame)
 
 
-    def __create_widgets(self):
+    @staticmethod
+    def __create_widgets(frame=None):
         i = 0
         for button in buttons_GP:
-            ttk.Button(self, text=button).grid(row=i, column=0)
+            ttk.Button(frame, text=button).grid(row=i, column=0)
             i += 1
 
 
@@ -25,10 +26,12 @@ class ButtonSpecific(ttk.Frame):
         super().__init__(container)
 
         # grid layout manager
-        self.columnconfigure(index=1, weight=1)
-        self.__create_widgets()
+        button_sp_frame = ttk.LabelFrame(self, text='Specific')
+        button_sp_frame.grid(row=0, column=1, columnspan=2, )
+        self.__create_widgets(button_sp_frame)
 
 
+    @staticmethod
     def __create_widgets(self):
         i = 0
         for button in buttons_SP:
