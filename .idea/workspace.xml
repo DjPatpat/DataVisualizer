@@ -4,7 +4,147 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6180464-ba3b-4967-ad5b-8557fe9c51db" name="Changes" comment="Update Buttons 2&#10;&gt; Changed ButtonsGeneral to use list of buttons&#10;&gt; Changed ButtonSpecific to use list of buttons">
+    <list default="true" id="c6180464-ba3b-4967-ad5b-8557fe9c51db" name="Changes" comment="Added LabelFrames.">
+      <change afterPath="$PROJECT_DIR$/forest-dark.tcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/border-accent-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/border-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/border-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/border-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/border-invalid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/check-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/check-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/check-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/check-tri-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/check-tri-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/check-tri-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/check-unsel-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/check-unsel-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/check-unsel-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/check-unsel-pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/combo-button-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/combo-button-focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/combo-button-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/hor-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/hor-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/hor-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/notebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/off-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/off-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/off-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/on-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/on-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/on-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/radio-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/radio-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/radio-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/radio-tri-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/radio-tri-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/radio-tri-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/radio-unsel-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/radio-unsel-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/radio-unsel-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/radio-unsel-pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/rect-accent-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/rect-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/rect-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/rect-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/scale-hor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/scale-vert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/separator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/sizegrip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/spin-button-down-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/spin-button-down-focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/spin-button-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/tab-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/tab-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/tab-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/thumb-hor-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/thumb-hor-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/thumb-hor-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/thumb-vert-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/thumb-vert-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/thumb-vert-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/tree-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/tree-pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/vert-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/vert-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-dark/vert-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light.tcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/border-accent-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/border-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/border-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/border-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/border-invalid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/check-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/check-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/check-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/check-tri-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/check-tri-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/check-tri-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/check-unsel-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/check-unsel-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/check-unsel-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/check-unsel-pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/combo-button-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/combo-button-focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/combo-button-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/down-focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/hor-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/hor-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/hor-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/notebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/off-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/off-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/off-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/on-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/on-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/on-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/radio-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/radio-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/radio-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/radio-tri-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/radio-tri-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/radio-tri-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/radio-unsel-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/radio-unsel-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/radio-unsel-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/radio-unsel-pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/rect-accent-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/rect-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/rect-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/rect-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/right-focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/scale-hor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/scale-vert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/separator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/sizegrip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/spin-button-down-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/spin-button-down-focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/spin-button-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/tab-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/tab-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/tab-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/thumb-hor-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/thumb-hor-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/thumb-hor-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/thumb-vert-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/thumb-vert-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/thumb-vert-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/tree-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/tree-pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/vert-accent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/vert-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forest-light/vert-hover.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -94,7 +234,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-PY-251.26094.141" />
         <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
       </set>
     </attachedChunks>
@@ -108,7 +247,9 @@
       <updated>1753272327828</updated>
       <workItem from="1753272328519" duration="6445000" />
       <workItem from="1753349869973" duration="4808000" />
-      <workItem from="1753360216416" duration="9385000" />
+      <workItem from="1753360216416" duration="9695000" />
+      <workItem from="1753682334021" duration="3300000" />
+      <workItem from="1755677187349" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="First successfully opened empty window.&#10;&#10;Started a file for error documentation.">
       <option name="closed" value="true" />
@@ -166,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753364934336</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added LabelFrames.">
+      <option name="closed" value="true" />
+      <created>1753371263621</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753371263621</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,9 +340,10 @@
     <MESSAGE value="Removed test button.&#10;Removed test label.&#10;Added grid layout for root window.&#10;Added frame for general purpose buttons.&#10;&#10;Documented error of colliding .pack() and .grid()." />
     <MESSAGE value="Update Buttons&#10;&gt; Added General Purpose Buttons (no functionality)&#10;&gt; Added Specific Buttons (no functionality)&#10;&gt; Added Themes" />
     <MESSAGE value="Update Buttons 2&#10;&gt; Changed ButtonsGeneral to use list of buttons&#10;&gt; Changed ButtonSpecific to use list of buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Buttons 2&#10;&gt; Changed ButtonsGeneral to use list of buttons&#10;&gt; Changed ButtonSpecific to use list of buttons" />
+    <MESSAGE value="Added LabelFrames." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added LabelFrames." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DataVisualizer$main.coverage" NAME="main Coverage Results" MODIFIED="1753370724603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataVisualizer$main.coverage" NAME="main Coverage Results" MODIFIED="1753685462569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

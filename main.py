@@ -9,7 +9,7 @@ class ButtonGeneral(ttk.Frame):
         super().__init__(container)
 
         button_gp_frame = ttk.LabelFrame(self, text='General')
-        button_gp_frame.grid(row=0, column=0, rowspan=2)
+        button_gp_frame.grid(row=0, column=0, rowspan=2, columnspan=1)
         self.__create_widgets(button_gp_frame)
 
 
@@ -27,7 +27,7 @@ class ButtonSpecific(ttk.Frame):
 
         # grid layout manager
         button_sp_frame = ttk.LabelFrame(self, text='Specific')
-        button_sp_frame.grid(row=0, column=1, columnspan=2, )
+        button_sp_frame.grid(row=0, column=1, columnspan=2)
         self.__create_widgets(button_sp_frame)
 
 
@@ -40,35 +40,16 @@ class ButtonSpecific(ttk.Frame):
         ttk.Checkbutton(self, text="Single Plot").grid(row=0, column=i)
 
 
-class ButtonThemes(ttk.Frame):
-    def __init__(self, container):
-        super().__init__(container)
-
-        container.style = ttk.Style(container)
-        container.selected_theme = tk.StringVar()
-
-        def change_theme():
-            container.style.theme_use(container.selected_theme.get())
-
-        theme_frame = ttk.LabelFrame(self, text="Theme")
-        theme_frame.grid(row=2, column=0)
-
-        for theme_name in container.style.theme_names():
-            rb = ttk.Radiobutton(
-                theme_frame,
-                text=theme_name,
-                value=theme_name,
-                variable=container.selected_theme,
-                command=change_theme
-            )
-            rb.pack(expand=True, anchor='sw')
-
-
 class App(tk.Tk):
     def __init__(self, width, height):
         super().__init__()
         self.title('DataVisualizer')
         self.__set_size(width, height)
+
+        self.style = ttk.Style()
+        self.tk.call("source", "forest-light.tcl")
+        self.tk.call("source", "forest-dark.tcl")
+        self.style.theme_use("forest-dark")
 
         # Ensure icon is in the assets folder
         # TODO: create assets folder
@@ -106,9 +87,6 @@ class App(tk.Tk):
 
         button_specific = ButtonSpecific(self)
         button_specific.grid(column=1, row=0, columnspan=2, sticky=tk.N)
-
-        button_themes = ButtonThemes(self)
-        button_themes.grid(column=0, row=2, sticky=tk.SW)
 
 
 # test function for button interaction
